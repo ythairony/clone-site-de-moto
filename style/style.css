@@ -6,3 +6,9 @@
     --corgray: #7E7765;
     --font: Arial, Verdana, sans-serif;
 }
+
+main {
+    margin: auto;
+    width: 1100px;
+    background-color: var(--corgray);
+}
