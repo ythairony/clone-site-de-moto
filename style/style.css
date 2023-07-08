@@ -16,15 +16,63 @@ body{
     --corgray: #7E7765;
     --font: Arial, Verdana, sans-serif;
 }
-
+#header{
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: #DEDEDE;
+  position: absolute;
+  justify-content: space-between;
+  z-index: 1;
+  padding-top: 4px;
+  padding: 8px;
+  /* margin: 0 auto; */
+}
+#op{
+  display:flex;
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+#contato{
+  display:flex;
+  padding: 10px;
+  /* justify-content:space-between; */
+}
+.DropModel{
+  border: 1px solid #E8ACB5;
+  font-size:16px;
+}
+.cas1{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+.cas1 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.cas1 a:hover{
+     background-color: #E8ACB5;
+}
+.show{
+  display: block;
+}
 main {
-    margin: auto;
-    width: 100%;
-    background-color: var(--corgray);
+  margin: auto;
+  width: 100%;
+  background-color: var(--corff);
 }
 
 
 section.swiper{
+  margin-top:10vh;
   height: 100vh;
   width: 100%;
   display: flex;
