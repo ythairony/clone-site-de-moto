@@ -5,29 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/ducati.ico" type="image/x-icon">
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-  />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/style.css">
     <title>Ducati | Home</title>
 </head>
 <body>
-    <header id="header">
-        
-    </header>
+    <!-- <header id="header">
+    </header> -->
     
     <main>
-        <section class="swiper">
+      <div id="header">
+        <div id="home">
+          <a href="C:\Users\Davi Lúcio\Documents\Javascript\clone\clone-site-de-moto\index.html"><img src="./image/LOGO GATO.png" alt="" width="35px" height="35px"></a>
+        </div>
+        <!-- ######################################### -->
+        <div class="Menu">
+          <div class="dropdown">
+            <button>Modelos</button>
+            <div class="dropdown-content">
+              <div><a href="#"><img src="./image/foto1.png" alt="" ></a><h6>Superlegerra</h6></div>
+              <div><a href="#">Item 2</a></div>
+              <div><a href="#">Item 3</a></div>
+              <div><a href="#">Item 4</a></div>
+              <div><a href="#">Item 5</a></div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button>Acessorios</button>
+            <div class="dropdown-content">
+              <div><a href="#"><img src="./image/foto1.png" alt="" ></a><h3></h3></div>
+              <div><a href="#"><img src="" alt=""></a></div>
+              <div><a href="#"><img src="" alt=""></a></div>
+              <div><a href="#"><img src="" alt=""></a></div>
+              <div><a href="#"><img src="" alt=""></a></div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button>Notícias</button>
+            <div class="dropdown-content">
+              <div><a href="#">Item 1</a></div>
+              <div><a href="#">Item 2</a></div>
+              <div><a href="#">Item 3</a></div>
+              <div><a href="#">Item 4</a></div>
+              <div><a href="#">Item 5</a></div>
+            </div>
+          </div>
+          
+        </div>
+        <!--################################  -->
+        <div class="contato">
+         <a href=""><img src="./image/Ellipse 14.png" alt="" ></a>
+         <a href=""><img src="./image/Ellipse 15.png" alt="" ></a>
+         <a href=""><img src="./image/Ellipse 16.png" alt="" ></a>
+        </div>
+      </div>
+      <!-- ######################### -->
+      <section class="swiper">
             <div class="swiper-wrapper" >
                 <div class="swiper-slide">
                   <div class="project-img">
-                    <img src="https://http2.mlstatic.com/D_853975-MLB51542149305_092022-O.jpg" alt="Foto 01">
+                    <img src="./image/Imagem1.png" alt="Foto 01">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="project-img">
-                    <img src="https://fotos.jornaldocarro.estadao.com.br/wp-content/uploads/2020/11/27172926/DUCATI-PANIGALE-V4-ACTION_00_UC143801_High-scaled.jpg" alt="Foto 02">
+                    <img src="./image/Imagem2.png" alt="Foto 02">
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -37,7 +80,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="project-img">
-                      <img src="https://http2.mlstatic.com/D_NQ_NP_884018-MLB49656754650_042022-O.webp" alt="Foto 03">
+                      <img src="./image/Imagem3.png" alt="Foto 03">
                     </div>
                   </div>
                   <div class="swiper-slide">
@@ -46,13 +89,81 @@
                     </div>
                   </div>
               </div>
-            
             <div class="swiper-pagination"></div>
         </section>
 
-        <section>
+        <h1 class="spac">Modelos</h1>
+
+        <section class="parte_2">
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--@####################  -->
+          
+          <!-- ###################################### -->
+          <div class="container text-center" id="containerCard">
+            <div class="row align-items-end">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./image/foto6.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Uma moto</h5>
+                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
             <!-- mostrar os modelos de motos -->
-        </section>
+           
+          </section>
 
         <section>
             <!-- conta sobre a ducati nas corridas -->
@@ -66,8 +177,9 @@
     <footer>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./interation/cascata.js"></script>
     <script src="./interation/main.js"></script> 
-</body>
+  </body>
 </html>
