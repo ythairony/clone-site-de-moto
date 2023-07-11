@@ -16,6 +16,9 @@ body{
     --corgray: #7E7765;
     --font: Arial, Verdana, sans-serif;
 }
+.home{
+  margin-left: 200px;
+}
 #header{
   display: flex;
   width: 100vw;
@@ -36,16 +39,29 @@ body{
 .dropdown {
   position: relative;
   display: inline-block;
+  padding: 75px;
+  justify-content: space-between;
 }
-
+/* ###################### */
 /* Estilo do botão principal */
-.dropdown button {
+.dropdown a{
   background-color: #DEDEDE;
   color: black;
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
-  border: 1px solid red;
+  text-decoration: none;
+  border-radius: 8px;
   cursor: pointer;
+}
+/* ###################### */
+#drop{
+  border:1px solid #F37A8C;
+}
+#drop-1{
+  border: 1px solid #7AD1CC;
+}
+#drop-2{
+  border:1px solid #CDA77C;
 }
 
 /* Estilo do conteúdo do dropmenu */
@@ -64,6 +80,7 @@ body{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border-radius: none;
   justify-content:center;
 }
 
@@ -86,6 +103,7 @@ body{
   padding: 9px;
   justify-content: center;
   align-items: center;
+  margin-right: 200px;
 }
 .contato a{
   padding:10px;
