@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/style.css">
-    <title>Ducati | Home</title>
+    <title>Dugatu | Home</title>
 </head>
 <body>
     <!-- <header id="header">
@@ -16,51 +16,35 @@
     
     <main>
       <div id="header">
+
         <div id="home">
-          <a href="C:\Users\Davi Lúcio\Documents\Javascript\clone\clone-site-de-moto\index.html"><img src="./image/LOGO GATO.png" alt="" width="35px" height="35px"></a>
+          <a href="C:\Users\Davi Lúcio\Documents\Javascript\clone\clone-site-de-moto\index.html"><img src="./image/LOGO GATO.png" alt="" width="134px" height="61px"></a>
+
+
         </div>
-        <!-- ######################################### -->
+        <!-- Títulos na navbar -->
         <div class="Menu">
           <div class="dropdown">
-            <button>Modelos</button>
-            <div class="dropdown-content">
-              <div><a href="#"><img src="./image/foto1.png" alt="" ></a><h6>Superlegerra</h6></div>
-              <div><a href="#">Item 2</a></div>
-              <div><a href="#">Item 3</a></div>
-              <div><a href="#">Item 4</a></div>
-              <div><a href="#">Item 5</a></div>
-            </div>
+
+            <a href="" id="bmodelos">Modelos</a>
           </div>
           <div class="dropdown">
-            <button>Acessorios</button>
-            <div class="dropdown-content">
-              <div><a href="#"><img src="./image/foto1.png" alt="" ></a><h3></h3></div>
-              <div><a href="#"><img src="" alt=""></a></div>
-              <div><a href="#"><img src="" alt=""></a></div>
-              <div><a href="#"><img src="" alt=""></a></div>
-              <div><a href="#"><img src="" alt=""></a></div>
+            <a href="" id="bacessorios">Acessórios</a>
+          </div>
+          <div class="dropdown" >
+            <a href="" id="bnoticias">Notícias</a>
+
             </div>
           </div>
-          <div class="dropdown">
-            <button>Notícias</button>
-            <div class="dropdown-content">
-              <div><a href="#">Item 1</a></div>
-              <div><a href="#">Item 2</a></div>
-              <div><a href="#">Item 3</a></div>
-              <div><a href="#">Item 4</a></div>
-              <div><a href="#">Item 5</a></div>
-            </div>
-          </div>
-          
         </div>
-        <!--################################  -->
+        <!--ícones da navbar -->
         <div class="contato">
          <a href=""><img src="./image/Ellipse 14.png" alt="" ></a>
          <a href=""><img src="./image/Ellipse 15.png" alt="" ></a>
          <a href=""><img src="./image/Ellipse 16.png" alt="" ></a>
         </div>
       </div>
-      <!-- ######################### -->
+      <!-- Inicio do CARROSSEL-->
       <section class="swiper">
             <div class="swiper-wrapper" >
                 <div class="swiper-slide">
@@ -92,17 +76,16 @@
             <div class="swiper-pagination"></div>
         </section>
 
-        <h1 class="spac">Modelos</h1>
+        <h1 id="tmodelos">MODELOS</h1>
 
-        <section class="parte_2">
-          <div class="container text-center">
+      <!-- Primeiros 3 cards MODELOS -->
+          <div class="container text-center" id="containerCard">
             <div class="row align-items-center">
               <div class="col">
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto1.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">Superleggera V4</h5>
                   </div>
                 </div>
                 
@@ -111,8 +94,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto2.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">Diavel 1260 S</h5>
                   </div>
                 </div>
               </div>
@@ -120,24 +102,21 @@
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto3.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">Multistrada V4 S</h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-           <!--@####################  -->
           
-          <!-- ###################################### -->
+          <!-- Ultimos 3 cards MODELOS-->
           <div class="container text-center" id="containerCard">
             <div class="row align-items-end">
               <div class="col">
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto4.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">Streetfighter V4 S</h5>
                   </div>
                 </div>
               </div>
@@ -145,8 +124,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto5.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">XDiavel S</h5>
                   </div>
                 </div>
               </div>
@@ -154,24 +132,12 @@
                 <div class="card" style="width: 18rem;">
                   <img src="./image/foto6.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Uma moto</h5>
-                    <a href="#" class="btn btn-primary">Saiba disso</a>
+                    <h5 class="card-title">Multistrada V2 S</h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-            <!-- mostrar os modelos de motos -->
-           
-          </section>
-
-        <section>
-            <!-- conta sobre a ducati nas corridas -->
-        </section>
-
-        <section>
-            <!-- últimas notícias -->
-        </section>
     </main>
 
     <footer>
