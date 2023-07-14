@@ -100,21 +100,29 @@ body{
 }
 
 .Menu{
-  margin-left: 20%;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.contato{
-  display:flex;
-  padding: 9px;
-  justify-content: right;
-  margin-right: 50px;
-  margin-top: 10px;
-  gap: 10px;
+.link{
+  padding: 5px;
 }
-.contato a{
-  z-index: 3;
+
+.contato {
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
 }
+
+.contato a {
+  display: flex;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
 
 
 #tmodelos{
@@ -140,7 +148,7 @@ main {
 }
 
 .swiper img{
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
   width: 100vw;
 }
@@ -156,6 +164,13 @@ main {
 
 .card-body:hover{
   cursor: pointer;
+}
+
+#tacessorios{
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-family: 'PervitinaDex', sans-serif;
 }
 
 @media (max-width: 450px) {
