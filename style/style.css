@@ -140,6 +140,7 @@ body{
 
 .col{
    padding: 8px; /*alterando distancia entre os cards */
+   display: flex;
 }
 main {
   margin: auto;
@@ -159,7 +160,8 @@ main {
 
 .card {
   margin: auto;
-   border-width: 0; /*retirando "sobra" do tamanho do card em relação a borda onde fica o nome */
+  border-width: 0; /*retirando "sobra" do tamanho do card em relação a borda onde fica o nome */
+  display: flex;
 }
 
 .card-body:hover{
@@ -173,6 +175,56 @@ main {
   font-family: 'PervitinaDex', sans-serif;
 }
 
+.col2{
+  padding: 8px; /*alterando distancia entre os cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-img-top{
+    border-radius: 5% 5% 0 0;
+}
+
+.card2{
+  margin: 0;
+}
+
+.card-body2{
+  border-radius: 0 0 6% 6%;
+  border: 1px solid #4DC7C0;
+  padding:8px;
+}
+.card-body2:hover{
+  cursor: pointer;
+}
+
+#tnoticias{
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-family: 'PervitinaDex', sans-serif;
+}
+.col3{
+  padding: 8px; /*alterando distancia entre os cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card3{
+  margin: 0;
+}
+
+.card-body3{
+  border-radius: 0 0 6% 6%;
+  border: 1px solid #D2AC81;
+  padding:8px;
+}
+.card-body3:hover{
+  cursor: pointer;
+}
 @media (max-width: 450px) {
   .swiper {
     height: 270px;
