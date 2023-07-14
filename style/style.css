@@ -30,6 +30,10 @@ body{
   position:fixed;
   /* margin: 0 auto; */
 }
+.Reserve{
+  position: absolute;
+  z-index: 4;
+}
 #d2{
   display:block;
 }
@@ -38,48 +42,6 @@ body{
   display: inline-block;
 }
 
-/* Estilo do botão principal */
-.dropdown button {
-  background-color: #DEDEDE;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid red;
-  cursor: pointer;
-}
-
-/* Estilo do conteúdo do dropmenu */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Estilo dos itens do dropmenu */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  justify-content:center;
-}
-
-/* Estilo dos itens do dropmenu ao passar o mouse */
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-.dropdown-content div{
- width:160px;
- height:280px;
-}
-
-/* Mostra o conteúdo do dropmenu quando o mouse está sobre o botão */
-.dropdown:hover .dropdown-content {
-  display: flex;
-}
 
 .contato{
   display:flex;
@@ -90,13 +52,33 @@ body{
 .contato a{
   padding:10px;
 }
+.link1{
+  border: 1px solid red;
+  text-decoration:none;
+  color: black;
+  padding: 8px;
+  border-radius:20px;
+}
+.link2{
+  border: 1px solid red;
+  text-decoration:none;
+  color: black;
+  padding: 8px;
+  border-radius:20px;
+}
+.link3{
+  border: 1px solid red;
+  text-decoration:none;
+  color: black;
+  padding: 8px;
+  border-radius:20px;
+}
 .dropdown button{
   justify-content: space-between;
 }
 .Menu{
   justify-content: space-between;
-  padding:0.5px;
-   
+  padding:30px;
 }
 .spac{
   margin-left:35vw;
