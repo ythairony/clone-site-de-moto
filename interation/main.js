@@ -19,7 +19,7 @@ var swiper = new Swiper(".swiper", {
   cssMode: true,
   loop: true, 
   autoplay: {
-    delay: 1500,
+    delay: 2500,
     pauseOnMouseEnter: true,
     disableOnInteraction: false,
   },
